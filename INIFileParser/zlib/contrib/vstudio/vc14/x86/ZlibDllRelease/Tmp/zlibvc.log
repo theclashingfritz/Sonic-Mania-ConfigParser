@@ -1,0 +1,9 @@
+﻿   Assembling: match686.asm
+  Microsoft (R) Macro Assembler Version 10.00.30319.01
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+   Assembling: inffas32.asm
+  Microsoft (R) Macro Assembler Version 10.00.30319.01
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  zlibvc.vcxproj -> C:\Users\theclashingfritz\source\repos\INIFileParser\zlib\contrib\vstudio\vc14\x86\ZlibDllRelease\zlibwapi.dll

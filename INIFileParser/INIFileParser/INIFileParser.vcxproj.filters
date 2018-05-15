@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\parser">
+      <UniqueIdentifier>{051b96a0-ba3d-4707-9fc2-e02bbaa780f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\etc">
+      <UniqueIdentifier>{bd54fb3f-7c6d-4830-b4d7-307118cc2d53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\subclasses">
+      <UniqueIdentifier>{e0515766-7720-4c20-916c-f1e222d230a9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="INIFileParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="parser\Reader.cxx">
+      <Filter>Source Files\parser</Filter>
+    </ClCompile>
+    <ClCompile Include="parser\Writer.cxx">
+      <Filter>Source Files\parser</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonConfig.cpp">
+      <Filter>Source Files\parser</Filter>
+    </ClCompile>
+    <ClCompile Include="StageConfig.cpp">
+      <Filter>Source Files\parser</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Source Files\subclasses</Filter>
+    </ClCompile>
+    <ClCompile Include="Color.cpp">
+      <Filter>Source Files\subclasses</Filter>
+    </ClCompile>
+    <ClCompile Include="TilesConfig.cpp">
+      <Filter>Source Files\parser</Filter>
+    </ClCompile>
+    <ClCompile Include="Palette.cpp">
+      <Filter>Source Files\subclasses</Filter>
+    </ClCompile>
+    <ClCompile Include="PaletteColor.cpp">
+      <Filter>Source Files\subclasses</Filter>
+    </ClCompile>
+    <ClCompile Include="WAVConfiguration.cpp">
+      <Filter>Source Files\subclasses</Filter>
+    </ClCompile>
+    <ClCompile Include="TileConfig.cpp">
+      <Filter>Source Files\parser</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneInfo.cpp">
+      <Filter>Source Files\subclasses</Filter>
+    </ClCompile>
+    <ClCompile Include="Category.cpp">
+      <Filter>Source Files\subclasses</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfigurableMemoryEntry.cpp">
+      <Filter>Source Files\subclasses</Filter>
+    </ClCompile>
+    <ClCompile Include="GameConfig.cpp">
+      <Filter>Source Files\parser</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneEditorMetadata.cxx">
+      <Filter>Source Files\subclasses</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="INIFileParser.def">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="res\INIFileParser.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="INIFileParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="parser\Reader.h">
+      <Filter>Source Files\parser</Filter>
+    </ClInclude>
+    <ClInclude Include="parser\Writer.h">
+      <Filter>Source Files\parser</Filter>
+    </ClInclude>
+    <ClInclude Include="etc\strict_fstream.hpp">
+      <Filter>Source Files\etc</Filter>
+    </ClInclude>
+    <ClInclude Include="etc\zstr.hpp">
+      <Filter>Source Files\etc</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonConfig.h">
+      <Filter>Source Files\parser</Filter>
+    </ClInclude>
+    <ClInclude Include="StageConfig.h">
+      <Filter>Source Files\parser</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Source Files\subclasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>Source Files\subclasses</Filter>
+    </ClInclude>
+    <ClInclude Include="TilesConfig.h">
+      <Filter>Source Files\parser</Filter>
+    </ClInclude>
+    <ClInclude Include="Palette.h">
+      <Filter>Source Files\subclasses</Filter>
+    </ClInclude>
+    <ClInclude Include="PaletteColor.h">
+      <Filter>Source Files\subclasses</Filter>
+    </ClInclude>
+    <ClInclude Include="WAVConfiguration.h">
+      <Filter>Source Files\subclasses</Filter>
+    </ClInclude>
+    <ClInclude Include="TileConfig.h">
+      <Filter>Source Files\parser</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneInfo.h">
+      <Filter>Source Files\subclasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Category.h">
+      <Filter>Source Files\subclasses</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigurableMemoryEntry.h">
+      <Filter>Source Files\subclasses</Filter>
+    </ClInclude>
+    <ClInclude Include="GameConfig.h">
+      <Filter>Source Files\parser</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneEditorMetadata.h">
+      <Filter>Source Files\subclasses</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="INIFileParser.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
